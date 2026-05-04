@@ -10,7 +10,7 @@
   <li> <code> git clone https://github.com/YuriiKlimyuk/todo_list_nodejs.git </code>, щоб клонувати репозиторій на локальний комп’ютер; </li>
   <li> <code> cd todo_list_nodejs </code>, щоб перейти в папку todo_list_nodejs; </li>
   <li> <code> npm install </code>, щоб встановити всі необхідні залежності; </li>
-  <li> <code> node index.js </code>, щоб запустити сервер на 3000 порту. </li>
+  <li> <code> node index.js </code>, щоб запустити сервер на 3001 порту. </li>
 </ol>
-<p> Тепер, щоб переглянути вебзастосування, відкрийте веб-браузер та перейдіть за адресою  <code> http://localhost:3000/ </code>.</p>
+<p> Тепер, щоб переглянути вебзастосування, відкрийте веб-браузер та перейдіть за адресою  <code> http://localhost:3001/ </code>.</p>
 c
