@@ -1,9 +1,16 @@
+//Надаємо доступ до папки public
+app.use(express.static("public")); 
+
+
+Файл index.js після оновлення матиме вигляд:
 //Підключаємо залежність express
 var express = require("express");
 //Підключаємо залежність body-parser
 var bodyParser = require("body-parser");
 //Викликаємо express
 var app = express();
+//Надаємо доступ до папки public
+app.use(express.static("public"));
 //Вмикаємо body-parser
 app.use(bodyParser.urlencoded({ extended: true }));
 //Налаштовуємо обробник шаблонів
