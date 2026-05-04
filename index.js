@@ -48,6 +48,6 @@ app.get("/", function (req, res) {
     res.render("index", { task: task, complete: complete });
 });
 //Налаштовуємо сервер для прослуховування порту 3000
-app.listen(3000, function () {
+app.listen(3001, function () {
     console.log("Сервер працює на порту 3000!");
 });
