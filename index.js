@@ -1,8 +1,3 @@
-//Надаємо доступ до папки public
-app.use(express.static("public")); 
-
-
-Файл index.js після оновлення матиме вигляд:
 //Підключаємо залежність express
 var express = require("express");
 //Підключаємо залежність body-parser
